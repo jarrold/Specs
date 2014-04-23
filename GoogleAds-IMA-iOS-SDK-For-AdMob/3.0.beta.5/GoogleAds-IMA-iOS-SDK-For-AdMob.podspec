@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   # use the "GoogleAds-IMA-iOS-SDK" pod.
   s.exclude_files = 'libGoogleIMA3.a'
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreFoundation', 'CoreGraphics', 'CoreMedia', 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'UIKit'
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleAds-IMA-iOS-SDK/"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GoogleAds-IMA-iOS-SDK-For-AdMob/"' }
   s.requires_arc = false
 end
